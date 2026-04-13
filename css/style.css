@@ -11071,13 +11071,14 @@ html {
     max-height: 48px;
     width: auto;
   }
-  /* Hide floating socials on mobile */
-  .social-sidebar {
-    position: fixed;
-    right: 10px;
-    bottom: 0;
-    z-index: 20;
+  /* 
+    .social-sidebar {
+  	position: fixed;
+  	right: 5px;
+  	bottom: 0;
+  	z-index: 10;
   }
+  */
   /* Hero layout */
   .home-slider,
   .home-slider .slider-item,

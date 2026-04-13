@@ -2372,13 +2372,14 @@ html {
     width: auto;
   }
 
-  /* Hide floating socials on mobile */
+  /* 
   .social-sidebar {
 	position: fixed;
-	right: 10px;
+	right: 5px;
 	bottom: 0;
-	z-index: 20;
+	z-index: 10;
 }
+*/
 
   /* Hero layout */
   .home-slider,
