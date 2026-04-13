@@ -1,0 +1,5 @@
+<svg viewBox="0 0 32 32" fill="currentColor" width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M28 12h-8V4h8zM22 10h4V6h-4z" />
+    <path d="M17 15V9H9v14h14v-8zM11 11h4v4h-4zM15 21h-4v-4h4zM21 21h-4v-4h4z" />
+    <path d="M26 28H6a2.0023 2.0023 0 0 1-2-2V6a2.0023 2.0023 0 0 1 2-2h10v2H6v20h20V16h2v10a2.0023 2.0023 0 0 1-2 2z" />
+</svg>

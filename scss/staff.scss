@@ -1,0 +1,44 @@
+//STAFF
+.staff{
+	@include transition(.3s);
+	.img{
+		height: 320px;
+		background-position: top center;
+	}
+	.text{
+		background: $white;
+		@include transition(.3s);
+		h3{
+			font-size: 20px;
+			margin-bottom: 0;
+		}
+		.position{
+			color: $primary;
+			display: block;
+		}
+		.faded{
+			opacity: 0;
+			@include transition(.3s);
+			@include media-breakpoint-down(md){
+				opacity: 1;
+			}
+		}
+	}
+	&:hover, &:focus{
+		// margin-top: -50px;
+		.text{
+			margin-top: -50px;
+			.faded{
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.ftco-social{
+	padding: 0;
+	li{
+		list-style: none;
+		margin-right: 10px;
+	}
+}

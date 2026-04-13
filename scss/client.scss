@@ -1,0 +1,19 @@
+//CLIENT
+.client{
+	border: 1px solid lighten($black,94%);
+	display: block;
+	color: $black;
+	font-weight: 700;
+	text-transform: uppercase;
+	&:hover{
+		-webkit-box-shadow: 0px 0px 39px -17px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 39px -17px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 39px -17px rgba(0,0,0,0.75);
+	}
+}
+.about-image{
+	@include media-breakpoint-down(sm){
+		height: 400px;
+		margin-bottom: 30px;
+	}
+}

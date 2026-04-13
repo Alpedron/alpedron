@@ -1,0 +1,14 @@
+
+//ABOUT
+.img-2{
+	@include media-breakpoint-down(sm){
+		height: 300px;
+		margin-bottom: 40px;
+	}
+}
+.wrap-about{
+	position: relative;
+	@include media-breakpoint-up(md){
+		padding-left: 6em;
+	}
+}
