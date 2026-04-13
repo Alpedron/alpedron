@@ -612,20 +612,19 @@ h1, h2, h3, h4, h5,
 } 
 
 .container{
+	width: 100%;
 	max-width: 1300px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: clamp(16px, 4vw, 50px);
+	padding-right: clamp(16px, 4vw, 50px);
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   body {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: clamp(16px, 4vw, 50px);
+    padding-right: clamp(16px, 4vw, 50px);
   }
 }
 
@@ -819,16 +818,63 @@ h1, h2, h3, h4, h5,
 
 //ABOUT
 .img-2{
+	width: 100%;
+	height: clamp(320px, 60vw, 720px);
+	background-size: cover;
+	background-position: center center;
+	@include media-breakpoint-down(md){
+		height: clamp(280px, 70vw, 520px);
+		margin-bottom: 20px;
+	}
 	@include media-breakpoint-down(sm){
-		height: 300px;
-		margin-bottom: 10px;
+		height: clamp(240px, 78vw, 420px);
+		margin-bottom: 16px;
 	}
 }
-.wrap-about{
-	position: relative;
-	@include media-breakpoint-up(md){
-		padding-left: 6em;
-	}
+
+@media (max-width: 991.98px) {
+  .home-slider.home-slider,
+  .home-slider .slider-item,
+  .home-slider .slider-text {
+    height: auto !important;
+    min-height: unset !important;
+  }
+
+  .home-slider .slider-item {
+    padding: 120px 0 60px;
+  }
+
+  .home-slider .slider-text {
+    display: block !important;
+  }
+
+  .home-slider .slider-text .one-third,
+  .home-slider .slider-text .one-forth {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .home-slider .slider-text .text {
+    margin-right: 0 !important;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .experience-tabs {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .experience-tab-list,
+  .experience-panels {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 0;
+  }
 }
 
 
@@ -2235,7 +2281,7 @@ background: transparent;
 //sidebar
 .social-sidebar {
   position: fixed;
-  right: 40px;
+  right: 10px;
   bottom: 0;
   z-index: 20;
 }
@@ -2293,4 +2339,134 @@ background: transparent;
 //scroll behavior 
 html {
   scroll-behavior: smooth;
+}
+
+
+
+//mobile optimization
+@media (max-width: 767.98px) {
+  /* Header */
+  .navbar-brand {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar-brand img,
+  .navbar-brand .logo,
+  .navbar-brand svg {
+    max-height: 48px;
+    width: auto;
+  }
+
+  /* Hide floating socials on mobile */
+  .social-sidebar {
+	position: fixed;
+	right: 10px;
+	bottom: 0;
+	z-index: 20;
+}
+
+  /* Hero layout */
+  .home-slider,
+  .home-slider .slider-item,
+  .home-slider .slider-text,
+  .home-slider .one-third,
+  .home-slider .one-forth {
+    height: auto !important;
+    min-height: unset !important;
+  }
+
+  .home-slider .slider-item {
+    padding: 110px 0 50px;
+  }
+
+   .home-slider .one-third.img {
+    position: relative !important;
+    width: 100% !important;
+    height: clamp(260px, 70vw, 360px) !important;
+    background-position: center top !important;
+    background-size: cover !important;
+    opacity: 0.22;
+  }
+
+  .home-slider .one-forth {
+    width: 100% !important;
+    max-width: 100% !important;
+    justify-content: center !important;
+    text-align: center;
+    padding: 0 22px;
+    z-index: 2;
+  }
+
+  .home-slider .text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .home-slider .text p:first-child {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+
+  .home-slider .text h1 {
+    font-size: clamp(2rem, 9vw, 2.5rem) !important;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
+ .home-slider .text h2 {
+    font-size: clamp(1rem, 4.8vw, 1.15rem) !important;
+    line-height: 1.45;
+    margin-bottom: 18px;
+  }
+
+  .home-slider .text p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .home-slider .btn.btn-primary {
+    padding: 14px 28px !important;
+    font-size: 1rem;
+    border-radius: 999px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  /* About section image + text */
+  .img-2 {
+    height: 280px !important;
+    background-position: center top !important;
+    margin-bottom: 20px;
+  }
+
+  .wrap-about,
+  .pl-md-5,
+  .ml-md-5 {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .heading-section h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  /* Skills / projects spacing */
+  .ftco-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  #project-section .category {
+    line-height: 2;
+  }
+
+  /* Make project tiles stack nicely */
+  #project-section .project-grid,
+  #project-section .row {
+    gap: 0 !important;
+  }
 }
