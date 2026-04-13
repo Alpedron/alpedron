@@ -10995,7 +10995,6 @@ textarea.form-control {
   transform: translateY(0);
 }
 
-/*
 .social-sidebar {
   position: fixed;
   right: 5px;
@@ -11027,7 +11026,7 @@ textarea.form-control {
 .sidebar-line {
   width: 2px;
   height: 200px;
-  background-color: $primary;
+  background-color: #1b3951;
   margin: 20px auto 0;
 }
 
@@ -11039,7 +11038,6 @@ textarea.form-control {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-*/
 .project-video {
   position: absolute;
   top: 50%;
