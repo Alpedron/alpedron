@@ -9604,14 +9604,14 @@ h1, h2, h3, h4, h5,
 
 .img-2 {
   width: 100%;
-  height: clamp(320px, 60vw, 720px);
+  height: auto;
   background-size: cover;
-  background-position: center 22%;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 @media (max-width: 991.98px) {
   .img-2 {
-    height: clamp(280px, 70vw, 520px);
+    height: clamp(260px, 55vw, 420px);
     background-position: center 20%;
     margin-bottom: 20px;
   }
@@ -9621,6 +9621,17 @@ h1, h2, h3, h4, h5,
     height: clamp(240px, 78vw, 420px);
     background-position: center 18%;
     margin-bottom: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .home-slider .one-third.img {
+    background-size: auto 88%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+
+  .ftc-no-pb .row {
+    align-items: stretch;
   }
 }
 

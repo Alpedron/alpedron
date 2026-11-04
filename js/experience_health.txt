@@ -1,0 +1,76 @@
+
+const experiences = [
+  {
+    id: "job-1",
+    company: "RTI International – ReachHealth Project",
+    role: "Consultant – Technical Writer / Documenter",
+    date: "May 2024 – Aug 2024",
+    points: [
+      "Conducted qualitative and quantitative analysis of national health project data and authored the terminal report with findings and recommendations.",
+      "Designed qualitative tools and led key informant interviews (KIIs) and focus group discussions (FGDs) across multiple regions.",
+      "Monitored project deliverables and coordinated with stakeholders for timely submission and tracking."
+      
+    ]
+  },
+  {
+    id: "job-2",
+    company: "One CoreDev IT",
+    role: "Clinical Patient Recruiter Team Lead",
+    date: "May 2024 – Jul 2024",
+    points: [
+      "Supervised a team conducting patient recruitment for multiple clinical studies.",
+      "Monitored recruitment targets and reported progress to upper management.",
+      "Coordinated cross-functional communication and recommended workflow improvements."
+    ]
+  },
+  {
+    id: "job-3",
+    company: "Evergreen Hospice",
+    role: "Healthcare Virtual Assistant",
+    date: "Jan 2023 – Mar 2024",
+    points: [
+      "Ensured data quality of patient records in HospiceMD EMR.",
+      "Generated and analyzed quarterly patient data reports for QAPI.",
+      "Provided insights and recommendations to improve patient care processes.",
+      "Used Power BI for data analysis and visualization."
+    ]
+  },
+  {
+    id: "job-4",
+    company: "IQVIA RDS Philippines",
+    role: "Clinical Research Associate I",
+    date: "May 2022 – Nov 2022",
+    points: [
+      "Monitored COVID-19 vaccine trials and ensured compliance with GCP and data quality standards.",
+      "Performed data review, cleaning, and query resolution using Medidata (EDC) and CTMS.",
+      "Prepared monitoring reports and coordinated with clinical sites to resolve protocol issues."
+    ]
+  },
+  {
+    id: "job-5",
+    company: "St. Luke’s BGC Vaccination Site",
+    role: "Clinical Research Coordinator",
+    date: "Oct 2021 – Mar 2022",
+    points: [
+      "Managed clinical trial data and ensured integrity of subject charts and study files.",
+      "Created an online tracking system to monitor KPIs and project progress.",
+      "Performed data cleaning and query resolution using Medidata/Rave.",
+      "Oversaw patient recruitment and retention processes."
+    ]
+  },
+  {
+    id: "job-6",
+    company: "University of the Philippines Manila – Various Health Projects",
+    role: "Project / Research Assistant",
+    date: "Jun 2017 – Jul 2021",
+    points: [
+      "Authored summary reports and contributed drafts for research papers submitted for scientific publication.",
+      "Conducted data collection through house-to-house surveys, online surveys, structured interviews, Key Informant Interviews (KIIs), and Focus Group Discussions (FGDs).",
+      "Performed data processing, cleaning, and both qualitative and quantitative analysis of project datasets; synthesized insights and summarized findings for reporting.",
+      "Developed data visualizations and prepared presentations for key stakeholders and project partners.",
+      "Provided administrative and operational support for multiple public health projects and coordinated with stakeholders.",
+      "Managed project finances including liquidation, reimbursements, and reporting.",
+      "Organized meetings, trainings, and logistics for fieldwork and stakeholder activities."
+    ]
+  }
+];
