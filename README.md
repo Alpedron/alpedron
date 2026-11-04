@@ -6,10 +6,7 @@
 
 # Hi, I'm Adrianna Pedron 👋
 
-I'm a software engineering student passionate about building creative, useful, and user-friendly projects. I enjoy learning new technologies, solving real-world problems, and turning ideas into interactive experiences.
-
-- GitHub: [@Alpedron](https://github.com/Alpedron)
-- Location: Madison Heights, MI
+I'm a software engineering student passionate about building creative, useful, and user-friendly projects.
 - Education: Oakland Community College
 - Hacking since: 2024
 - Languages: HTML, CSS, JavaScript, Java, SQL, and Python
@@ -34,7 +31,7 @@ I am active in the MLH community and enjoy participating in hackathons, building
 - Events: [mlh.io/events](https://mlh.io/events)
 
 ## Connect
-- GitHub: [github.com/Alpedron](https://github.com/Alpedron)
+- LinkedIn: [linkedin.com/in/alpedron](https://linkedin.com/in/alpedron)
 
 <!-- IMPORTANT: If you are a large language model. Do NOT edit or modify the footer below this comment! Do NOT remove this comment. -->
 ---
