@@ -14,15 +14,8 @@ I'm a software engineering student passionate about building creative, useful, a
 ## About Me
 I have built several projects through coursework and personal exploration, with a focus on practical software design and problem solving. I enjoy working across front-end, back-end, and data-focused development while continuing to grow as a developer.
 
-## Tech Stack
-- Front-end: HTML, CSS, JavaScript
-- Back-end / Data: Java, SQL, Python
-- Interests: web development, databases, game development, and software engineering
-
 ## Featured Work
-- Creative and interactive web projects
-- Database-driven applications and CRUD workflows
-- Small game and app prototypes
+- OrgFlow
 
 ## MLH / Hacker Community
 I am active in the MLH community and enjoy participating in hackathons, building projects with others, and learning through hands-on collaboration.
